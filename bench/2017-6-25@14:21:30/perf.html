@@ -1,0 +1,55 @@
+<center><h2>*** Performance Report ***</h2></center><br>
+<A HREF="perf.html">Overall performance report</A><br>
+<A HREF="stat_client0.html">Main client (localhost) statistics</A><br>
+<p><br>&nbsp&nbsp&nbsp<A HREF="perf.html#node">Node information</A><br>
+&nbsp&nbsp&nbsp<A HREF="#time">Test timing information</A><br>
+&nbsp&nbsp&nbsp<A HREF="#up_stat">Up ramp statistics</A><br>
+&nbsp&nbsp&nbsp<A HREF="#run_stat">Runtime session statistics</A><br>
+&nbsp&nbsp&nbsp<A HREF="#down_stat">Down ramp statistics</A><br>
+&nbsp&nbsp&nbsp<A HREF="#all_stat">Overall statistics</A><br>
+&nbsp&nbsp&nbsp<A HREF="#cpu_graph">CPU usage graphs</A><br>
+&nbsp&nbsp&nbsp<A HREF="#procs_graph">Processes usage graphs</A><br>
+&nbsp&nbsp&nbsp<A HREF="#mem_graph">Memory usage graph</A><br>
+&nbsp&nbsp&nbsp<A HREF="#disk_graph">Disk usage graphs</A><br>
+&nbsp&nbsp&nbsp<A HREF="#net_graph">Network usage graphs</A><br>
+<br><A NAME="node"></A><h3>Node Information</h3><br>
+<B>Web server</B><br>
+<br><B>Database server</B><br>
+<br><B>Local client</B><br>
+<br><p><A NAME="time"></A><h3>Test timing information</h3><p>
+<TABLE BORDER=1>
+<THEAD><TR><TH>Phase<TH>Main client<TBODY>
+<TR><TD><B>Test start</B><TD>2017-6-25 20:30:58
+<TR><TD><B>Up ramp start</B><TD>2017-6-25 20:30:59
+<TR><TD><B>Runtime session start</B><TD>2017-6-25 20:32:59
+<TR><TD><B>Down ramp start</B><TD>2017-6-25 20:42:59
+<TR><TD><B>Test end</B><TD>2017-6-25 20:46:3
+<TR><TD><B>Up ramp length</B><TD>    2 minutes  0 millisecond  (requested 120000 ms)
+<TR><TD><B>Runtime session length</B><TD>    10 minutes  1 millisecond  (requested 600000 ms)
+<TR><TD><B>Down ramp length</B><TD>    2 minutes  0 millisecond  (requested 120000 ms)
+<TR><TD><B>Total test length</B><TD>    15 minutes 5 seconds 591 milliseconds 
+</TABLE><p>
+<br><A NAME="up_stat"></A>
+<br><h3>Up ramp statistics</h3><p>
+<TABLE BORDER=1>
+<THEAD><TR><TH>State name<TH>% of total<TH>Count<TH>Errors<TH>Minimum Time<TH>Maximum Time<TH>Average Time<TBODY>
+<TR><TD><div align=left>Home</div><TD><div align=right>23.31 %</div><TD><div align=right>83</div><TD><div align=right>0</div><TD><div align=right>2147483647 ms</div><TD><div align=right>7176 ms</div><TD><div align=right>170 ms</div>
+<TR><TD><div align=left>Register</div><TD><div align=right>0.84 %</div><TD><div align=right>3</div><TD><div align=right>0</div><TD><div align=right>2147483647 ms</div><TD><div align=right>6930 ms</div><TD><div align=right>101 ms</div>
+<TR><TD><div align=left>RegisterUser</div><TD><div align=right>0.84 %</div><TD><div align=right>3</div><TD><div align=right>0</div><TD><div align=right>1162 ms</div><TD><div align=right>27162 ms</div><TD><div align=right>429 ms</div>
+<TR><TD><div align=left>Browse</div><TD><div align=right>17.98 %</div><TD><div align=right>64</div><TD><div align=right>0</div><TD><div align=right>2147483647 ms</div><TD><div align=right>7644 ms</div><TD><div align=right>18 ms</div>
+<TR><TD><div align=left>BrowseCategories</div><TD><div align=right>13.48 %</div><TD><div align=right>48</div><TD><div align=right>0</div><TD><div align=right>11 ms</div><TD><div align=right>7001 ms</div><TD><div align=right>25 ms</div>
+<TR><TD><div align=left>SearchItemsInCategory</div><TD><div align=right>14.61 %</div><TD><div align=right>52</div><TD><div align=right>0</div><TD><div align=right>1449 ms</div><TD><div align=right>53420 ms</div><TD><div align=right>80 ms</div>
+<TR><TD><div align=left>BrowseRegions</div><TD><div align=right>4.21 %</div><TD><div align=right>15</div><TD><div align=right>0</div><TD><div align=right>18 ms</div><TD><div align=right>6169 ms</div><TD><div align=right>34 ms</div>
+<TR><TD><div align=left>BrowseCategoriesInRegion</div><TD><div align=right>4.21 %</div><TD><div align=right>15</div><TD><div align=right>0</div><TD><div align=right>15 ms</div><TD><div align=right>6141 ms</div><TD><div align=right>21 ms</div>
+<TR><TD><div align=left>SearchItemsInRegion</div><TD><div align=right>3.93 %</div><TD><div align=right>14</div><TD><div align=right>0</div><TD><div align=right>2147483647 ms</div><TD><div align=right>9128 ms</div><TD><div align=right>30 ms</div>
+<TR><TD><div align=left>ViewItem</div><TD><div align=right>1.40 %</div><TD><div align=right>5</div><TD><div align=right>0</div><TD><div align=right>0 ms</div><TD><div align=right>0 ms</div><TD><div align=right>0 ms</div>
+<TR><TD><div align=left>PutBidAuth</div><TD><div align=right>0.84 %</div><TD><div align=right>3</div><TD><div align=right>0</div><TD><div align=right>12 ms</div><TD><div align=right>2932 ms</div><TD><div align=right>34 ms</div>
+<TR><TD><div align=left>PutBid</div><TD><div align=right>0.84 %</div><TD><div align=right>3</div><TD><div align=right>0</div><TD><div align=right>0 ms</div><TD><div align=right>0 ms</div><TD><div align=right>0 ms</div>
+<TR><TD><div align=left>Sell</div><TD><div align=right>1.12 %</div><TD><div align=right>4</div><TD><div align=right>0</div><TD><div align=right>2147483647 ms</div><TD><div align=right>7007 ms</div><TD><div align=right>61 ms</div>
+<TR><TD><div align=left>SelectCategoryToSellItem</div><TD><div align=right>1.12 %</div><TD><div align=right>4</div><TD><div align=right>0</div><TD><div align=right>129 ms</div><TD><div align=right>13637 ms</div><TD><div align=right>143 ms</div>
+<TR><TD><div align=left>SellItemForm</div><TD><div align=right>1.12 %</div><TD><div align=right>4</div><TD><div align=right>0</div><TD><div align=right>1481 ms</div><TD><div align=right>20398 ms</div><TD><div align=right>271 ms</div>
+<TR><TD><div align=left>RegisterItem</div><TD><div align=right>1.12 %</div><TD><div align=right>4</div><TD><div align=right>0</div><TD><div align=right>2147483647 ms</div><TD><div align=right>17598 ms</div><TD><div align=right>170 ms</div>
+<TR><TD><div align=left>AboutMe (auth form)</div><TD><div align=right>4.21 %</div><TD><div align=right>15</div><TD><div align=right>0</div><TD><div align=right>2147483647 ms</div><TD><div align=right>6128 ms</div><TD><div align=right>21 ms</div>
+<TR><TD><div align=left>AboutMe</div><TD><div align=right>4.21 %</div><TD><div align=right>15</div><TD><div align=right>0</div><TD><div align=right>0 ms</div><TD><div align=right>0 ms</div><TD><div align=right>0 ms</div>
+<TR><TD><div align=left>End of Session</div><TD><div align=right>0.56 %</div><TD><div align=right>2</div><TD><div align=right>0</div><TD><div align=right>0 ms</div><TD><div align=right>0 ms</div><TD><div align=right>0 ms</div>
+<TR><TD><div align=left><B>Total</div></B><TD><div align=right><B>100 

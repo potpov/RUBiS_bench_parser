@@ -1,0 +1,51 @@
+<center><h2>*** Performance Report ***</h2></center><br>
+<A HREF="perf.html">Overall performance report</A><br>
+<A HREF="stat_client0.html">Main client (localhost) statistics</A><br>
+<p><br>&nbsp&nbsp&nbsp<A HREF="perf.html#node">Node information</A><br>
+&nbsp&nbsp&nbsp<A HREF="#time">Test timing information</A><br>
+&nbsp&nbsp&nbsp<A HREF="#up_stat">Up ramp statistics</A><br>
+&nbsp&nbsp&nbsp<A HREF="#run_stat">Runtime session statistics</A><br>
+&nbsp&nbsp&nbsp<A HREF="#down_stat">Down ramp statistics</A><br>
+&nbsp&nbsp&nbsp<A HREF="#all_stat">Overall statistics</A><br>
+&nbsp&nbsp&nbsp<A HREF="#cpu_graph">CPU usage graphs</A><br>
+&nbsp&nbsp&nbsp<A HREF="#procs_graph">Processes usage graphs</A><br>
+&nbsp&nbsp&nbsp<A HREF="#mem_graph">Memory usage graph</A><br>
+&nbsp&nbsp&nbsp<A HREF="#disk_graph">Disk usage graphs</A><br>
+&nbsp&nbsp&nbsp<A HREF="#net_graph">Network usage graphs</A><br>
+<br><A NAME="node"></A><h3>Node Information</h3><br>
+<B>Web server</B><br>
+Thread UserSession34: Error returned from access to http://192.168.1.101:80/PHP/ViewBidHistory.php?itemId=-1<br>
+Thread UserSession46: Error returned from access to http://192.168.1.101:80/PHP/StoreBid.php?itemId=-1&userId=897159&minBid=-1.0&maxQty=1&bid=7.0&maxBid=15.0&qty=1<br>
+<br><B>Database server</B><br>
+<br><B>Local client</B><br>
+<br><p><A NAME="time"></A><h3>Test timing information</h3><p>
+<TABLE BORDER=1>
+<THEAD><TR><TH>Phase<TH>Main client<TBODY>
+<TR><TD><B>Test start</B><TD>2017-6-25 15:29:46
+<TR><TD><B>Up ramp start</B><TD>2017-6-25 15:29:48
+<TR><TD><B>Runtime session start</B><TD>2017-6-25 15:31:48
+<TR><TD><B>Down ramp start</B><TD>2017-6-25 15:41:48
+<TR><TD><B>Test end</B><TD>2017-6-25 15:45:56
+<TR><TD><B>Up ramp length</B><TD>    2 minutes  0 millisecond  (requested 120000 ms)
+<TR><TD><B>Runtime session length</B><TD>    10 minutes  1 millisecond  (requested 600000 ms)
+<TR><TD><B>Down ramp length</B><TD>    2 minutes  0 millisecond  (requested 120000 ms)
+<TR><TD><B>Total test length</B><TD>    16 minutes 9 seconds 823 milliseconds 
+</TABLE><p>
+<br><A NAME="up_stat"></A>
+<br><h3>Up ramp statistics</h3><p>
+<TABLE BORDER=1>
+<THEAD><TR><TH>State name<TH>% of total<TH>Count<TH>Errors<TH>Minimum Time<TH>Maximum Time<TH>Average Time<TBODY>
+<TR><TD><div align=left>Home</div><TD><div align=right>31.36 %</div><TD><div align=right>148</div><TD><div align=right>0</div><TD><div align=right>2147483647 ms</div><TD><div align=right>69099 ms</div><TD><div align=right>93 ms</div>
+<TR><TD><div align=left>Register</div><TD><div align=right>2.75 %</div><TD><div align=right>13</div><TD><div align=right>0</div><TD><div align=right>2147483647 ms</div><TD><div align=right>47045 ms</div><TD><div align=right>150 ms</div>
+<TR><TD><div align=left>RegisterUser</div><TD><div align=right>2.75 %</div><TD><div align=right>13</div><TD><div align=right>8</div><TD><div align=right>2147483647 ms</div><TD><div align=right>56681 ms</div><TD><div align=right>210 ms</div>
+<TR><TD><div align=left>Browse</div><TD><div align=right>22.67 %</div><TD><div align=right>107</div><TD><div align=right>0</div><TD><div align=right>2147483647 ms</div><TD><div align=right>76318 ms</div><TD><div align=right>312 ms</div>
+<TR><TD><div align=left>BrowseCategories</div><TD><div align=right>15.04 %</div><TD><div align=right>71</div><TD><div align=right>2</div><TD><div align=right>107 ms</div><TD><div align=right>83682 ms</div><TD><div align=right>291 ms</div>
+<TR><TD><div align=left>SearchItemsInCategory</div><TD><div align=right>6.14 %</div><TD><div align=right>29</div><TD><div align=right>6</div><TD><div align=right>2147483647 ms</div><TD><div align=right>70565 ms</div><TD><div align=right>242 ms</div>
+<TR><TD><div align=left>BrowseRegions</div><TD><div align=right>5.72 %</div><TD><div align=right>27</div><TD><div align=right>0</div><TD><div align=right>117 ms</div><TD><div align=right>74607 ms</div><TD><div align=right>164 ms</div>
+<TR><TD><div align=left>BrowseCategoriesInRegion</div><TD><div align=right>2.33 %</div><TD><div align=right>11</div><TD><div align=right>0</div><TD><div align=right>2147483647 ms</div><TD><div align=right>74732 ms</div><TD><div align=right>469 ms</div>
+<TR><TD><div align=left>SearchItemsInRegion</div><TD><div align=right>0.64 %</div><TD><div align=right>3</div><TD><div align=right>1</div><TD><div align=right>2147483647 ms</div><TD><div align=right>6 ms</div><TD><div align=right>0 ms</div>
+<TR><TD><div align=left>Sell</div><TD><div align=right>1.48 %</div><TD><div align=right>7</div><TD><div align=right>0</div><TD><div align=right>2147483647 ms</div><TD><div align=right>42072 ms</div><TD><div align=right>287 ms</div>
+<TR><TD><div align=left>SelectCategoryToSellItem</div><TD><div align=right>1.48 %</div><TD><div align=right>7</div><TD><div align=right>0</div><TD><div align=right>0 ms</div><TD><div align=right>0 ms</div><TD><div align=right>0 ms</div>
+<TR><TD><div align=left>AboutMe (auth form)</div><TD><div align=right>3.81 %</div><TD><div align=right>18</div><TD><div align=right>0</div><TD><div align=right>2147483647 ms</div><TD><div align=right>37040 ms</div><TD><div align=right>156 ms</div>
+<TR><TD><div align=left>AboutMe</div><TD><div align=right>3.81 %</div><TD><div align=right>18</div><TD><div align=right>7</div><TD><div align=right>2147483647 ms</div><TD><div align=right>55455 ms</div><TD><div align=right>313 ms</div>
+<TR><TD><div align=left><B>Total</div></B><TD><div align=right><B>100 
